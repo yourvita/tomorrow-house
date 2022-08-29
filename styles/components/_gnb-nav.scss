@@ -2,7 +2,7 @@
   $padding: 8px;
 
   &-list {
-    @include flexbox(strat);
+    @include flexbox(start);
     margin-left: -#{$padding};
   }
 
