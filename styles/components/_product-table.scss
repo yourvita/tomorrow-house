@@ -11,7 +11,7 @@
     @include text-style(12, $primary);
     text-align: left;
     vertical-align: top;
-    border-bottom: 1px solid $blue;
+    border-bottom: 1px solid $border;
   }
 
   th,
