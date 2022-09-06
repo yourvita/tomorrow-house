@@ -28,6 +28,12 @@
       font-size: 24px;
       color: $primary;
     }
+
+    &.is-active {
+      i {
+        color: $blue;
+      }
+    }
   }
 
   .btn-primary {
