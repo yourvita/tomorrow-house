@@ -17,6 +17,9 @@ const userGallery = tns({
   gutter: 4,
   edgePadding: 16,
   controls: false,
+  controlsContainer: '.user-gallery-controls',
+  navContainer: '.user-gallery .thumbnail-list',
+  navAsThumbnails: true,
   loop: false,
   arrowKeys: true,
   mouseDrag: true,
@@ -25,7 +28,7 @@ const userGallery = tns({
     768: {
       gutter: 6,
       edgePadding: 75,
-      contrls: true,
+      controls: true,
     },
   },
 })
