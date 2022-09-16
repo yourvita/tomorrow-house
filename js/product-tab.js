@@ -56,7 +56,7 @@ const productTabPanelPositionMap = {}
 
 function detectTabpanelPosition() {
   // 각각의 tabPanel의 y축 위치를 찾는다
-  // productTabPanelPositionMap에 그 값을 업데이트
+  // productTabPanelPositionMap에 값을 업데이트
   productTabPanelList.forEach((panel) => {
     const id = panel.getAttribute('id')
     const position = window.scrollY + panel.getBoundingClientRect().top
